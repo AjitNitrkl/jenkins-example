@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        maven:'maven_3.5.0'
-    }
 
     stages {
         stage ('Compile Stage') {
